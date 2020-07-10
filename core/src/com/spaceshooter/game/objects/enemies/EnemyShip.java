@@ -1,8 +1,11 @@
-package com.spaceshooter.game;
+package com.spaceshooter.game.objects.enemies;
 
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Vector2;
+import com.spaceshooter.game.Game;
+import com.spaceshooter.game.objects.Laser;
+import com.spaceshooter.game.models.Ship;
 
 public class EnemyShip extends Ship {
 

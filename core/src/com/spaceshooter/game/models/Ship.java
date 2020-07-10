@@ -1,21 +1,22 @@
-package com.spaceshooter.game;
+package com.spaceshooter.game.models;
 
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Rectangle;
+import com.spaceshooter.game.objects.Laser;
 
 public abstract class Ship {
-    float movementSpeed;
-    int shield;
+    public float movementSpeed;
+    public int shield;
 
-    Rectangle boundingBox;
+    public Rectangle boundingBox;
 
-    float laserWidth, laserHeight;
-    float laserMovementSpeed;
-    float timeBetweenShots;
-    float timeSinceLastShot = 0;
+    public float laserWidth, laserHeight;
+    public float laserMovementSpeed;
+    public float timeBetweenShots;
+    public float timeSinceLastShot = 0;
 
-    TextureRegion shipTextureRegion, shieldTextureRegion, laserTextureRegion;
+    public TextureRegion shipTextureRegion, shieldTextureRegion, laserTextureRegion;
 
     public Ship(float movementSpeed, int shield,
                 float width, float height,

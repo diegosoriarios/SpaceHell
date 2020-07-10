@@ -1,4 +1,4 @@
-package com.spaceshooter.game;
+package com.spaceshooter.game.objects;
 
 import com.badlogic.gdx.ApplicationAdapter;
 import com.badlogic.gdx.Gdx;
@@ -25,6 +25,7 @@ public class Particles {
     }
 
     public void draw(Batch batch) {
+        pe.scaleEffect(0.4f);
         pe.draw(batch);
         if (pe.isComplete())
             pe.dispose();

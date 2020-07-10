@@ -1,10 +1,11 @@
-package com.spaceshooter.game;
+package com.spaceshooter.game.objects;
 
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
+import com.spaceshooter.game.models.Ship;
 
 public class PlayerShip extends Ship {
 
-    int lives;
+    public int lives;
 
     public PlayerShip(float movementSpeed, int shield, float width, float height, float xCenter, float yCenter, float laserWidth, float laserHeight, float laserMovementSpeed, float timeBetweenShots, TextureRegion shipTextureRegion, TextureRegion shieldTextureRegion, TextureRegion laserTextureRegion) {
         super(movementSpeed, shield, width, height, xCenter, yCenter, laserWidth, laserHeight, laserMovementSpeed, timeBetweenShots, shipTextureRegion, shieldTextureRegion, laserTextureRegion);

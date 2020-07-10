@@ -1,4 +1,4 @@
-package com.spaceshooter.game;
+package com.spaceshooter.game.objects;
 
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
@@ -6,11 +6,11 @@ import com.badlogic.gdx.math.Rectangle;
 
 public class Laser {
 
-    Rectangle boundingBox;
+    public Rectangle boundingBox;
 
-    float movementSpeed;
+    public float movementSpeed;
 
-    TextureRegion textureRegion;
+    public TextureRegion textureRegion;
 
     public Laser(float xPos, float yPos, float width, float height, float movementSpeed, TextureRegion textureRegion) {
         this.boundingBox = new Rectangle(xPos - width / 2, yPos, width, height);

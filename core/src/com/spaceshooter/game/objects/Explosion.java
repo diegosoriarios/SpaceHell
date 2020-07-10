@@ -1,4 +1,4 @@
-package com.spaceshooter.game;
+package com.spaceshooter.game.objects;
 
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Animation;
@@ -12,7 +12,7 @@ public class Explosion {
 
     private Rectangle boundingBox;
 
-    Explosion(Texture texture, Rectangle boundingBox, float totalAnimationTime) {
+    public Explosion(Texture texture, Rectangle boundingBox, float totalAnimationTime) {
         this.boundingBox = boundingBox;
 
         TextureRegion[][] textureRegion2D = TextureRegion.split(texture, 64, 64);

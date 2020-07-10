@@ -17,6 +17,11 @@ import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.viewport.StretchViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
+import com.spaceshooter.game.objects.Explosion;
+import com.spaceshooter.game.objects.Laser;
+import com.spaceshooter.game.objects.Particles;
+import com.spaceshooter.game.objects.PlayerShip;
+import com.spaceshooter.game.objects.enemies.EnemyShip;
 
 import java.util.LinkedList;
 import java.util.ListIterator;
